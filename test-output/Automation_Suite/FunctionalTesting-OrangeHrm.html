@@ -1,0 +1,1782 @@
+<html>
+<head>
+<title>TestNG:  FunctionalTesting-OrangeHrm</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>FunctionalTesting-OrangeHrm</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>23/22/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Oct 29 23:26:55 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>301 seconds (301050 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.testscripts.TC_OrangeHrmDeletePost_019.ValidateSkills()'><b>ValidateSkills</b><br>Test class: com.qa.testscripts.TC_OrangeHrmDeletePost_019<br>Parameters: SQL<br/>
+<a href="#Output-2130520253" onClick='toggleBox("Output-2130520253", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2130520253" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2130520253">
+Skill page is displayed<br/>
+AddSkill page is displayed<br/>
+Skill name is already exists<br/>
+Screenshot is captured successfully<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateSkills(TC_OrangeHrmValidateQualification_006.java:34)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2130520253", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2130520253'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateSkills(TC_OrangeHrmValidateQualification_006.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>6</td>
+<td>com.qa.testscripts.TC_OrangeHrmDeletePost_019@4516af24</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_OrangeHrmDeletePost_019.ValidateEducation()'><b>ValidateEducation</b><br>Test class: com.qa.testscripts.TC_OrangeHrmDeletePost_019<br>Parameters: BE<br/>
+<a href="#Output-1147545255" onClick='toggleBox("Output-1147545255", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1147545255" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1147545255">
+Education page is displayed<br/>
+AddEducation page is displayed<br/>
+Education level is already exists<br/>
+Screenshot is captured successfully<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateEducation(TC_OrangeHrmValidateQualification_006.java:56)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1147545255", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1147545255'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateEducation(TC_OrangeHrmValidateQualification_006.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>6</td>
+<td>com.qa.testscripts.TC_OrangeHrmDeletePost_019@4516af24</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_OrangeHrmDeletePost_019.ValidateEducation()'><b>ValidateEducation</b><br>Test class: com.qa.testscripts.TC_OrangeHrmDeletePost_019<br>Parameters: ME<br/>
+<a href="#Output-758705661" onClick='toggleBox("Output-758705661", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-758705661" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-758705661">
+Education page is displayed<br/>
+AddEducation page is displayed<br/>
+Education level is already exists<br/>
+Screenshot is captured successfully<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateEducation(TC_OrangeHrmValidateQualification_006.java:56)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace758705661", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace758705661'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateEducation(TC_OrangeHrmValidateQualification_006.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>6</td>
+<td>com.qa.testscripts.TC_OrangeHrmDeletePost_019@4516af24</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_OrangeHrmDeletePost_019.ValidateLicenses()'><b>ValidateLicenses</b><br>Test class: com.qa.testscripts.TC_OrangeHrmDeletePost_019<br>Parameters: Talend Big Data<br/>
+<a href="#Output-855277727" onClick='toggleBox("Output-855277727", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-855277727" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-855277727">
+License page is displayed<br/>
+AddLicense page is displayed<br/>
+License name is already exists<br/>
+Screenshot is captured successfully<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateLicenses(TC_OrangeHrmValidateQualification_006.java:79)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace855277727", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace855277727'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateLicenses(TC_OrangeHrmValidateQualification_006.java:79)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>7</td>
+<td>com.qa.testscripts.TC_OrangeHrmDeletePost_019@4516af24</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_OrangeHrmDeletePost_019.ValidateLicenses()'><b>ValidateLicenses</b><br>Test class: com.qa.testscripts.TC_OrangeHrmDeletePost_019<br>Parameters: NPTEL<br/>
+<a href="#Output-688819371" onClick='toggleBox("Output-688819371", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-688819371" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-688819371">
+License page is displayed<br/>
+AddLicense page is displayed<br/>
+License name is added successfully<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateLicenses(TC_OrangeHrmValidateQualification_006.java:79)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace688819371", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace688819371'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateLicenses(TC_OrangeHrmValidateQualification_006.java:79)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>4</td>
+<td>com.qa.testscripts.TC_OrangeHrmDeletePost_019@4516af24</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_OrangeHrmDeletePost_019.ValidateMembership()'><b>ValidateMembership</b><br>Test class: com.qa.testscripts.TC_OrangeHrmDeletePost_019<br>Parameters: JRC<br/>
+<a href="#Output-1487814699" onClick='toggleBox("Output-1487814699", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1487814699" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1487814699">
+Membership page is displayed<br/>
+AddMembership page is displayed<br/>
+Membership name is added successfully<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateMembership(TC_OrangeHrmValidateQualification_006.java:124)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1487814699", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1487814699'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateMembership(TC_OrangeHrmValidateQualification_006.java:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>4</td>
+<td>com.qa.testscripts.TC_OrangeHrmDeletePost_019@4516af24</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_OrangeHrmDeletePost_019.ValidateSkills()'><b>ValidateSkills</b><br>Test class: com.qa.testscripts.TC_OrangeHrmDeletePost_019<br>Parameters: java<br/>
+<a href="#Output-1137935956" onClick='toggleBox("Output-1137935956", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1137935956" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1137935956">
+Skill page is displayed<br/>
+AddSkill page is displayed<br/>
+Skill name is already exists<br/>
+Screenshot is captured successfully<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateSkills(TC_OrangeHrmValidateQualification_006.java:34)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1137935956", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1137935956'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateSkills(TC_OrangeHrmValidateQualification_006.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>7</td>
+<td>com.qa.testscripts.TC_OrangeHrmDeletePost_019@4516af24</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_OrangeHrmDeletePost_019.ValidateUserSearch()'><b>ValidateUserSearch</b><br>Test class: com.qa.testscripts.TC_OrangeHrmDeletePost_019<br>Parameters: manali28, ESS, Manali Kulkarni, Enabled<br/>
+<a href="#Output-2018664185" onClick='toggleBox("Output-2018664185", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2018664185" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2018664185">
+Employee details are found<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at com.qa.testscripts.TC_OrangeHrmValidateUserSearch_005.ValidateUserSearch(TC_OrangeHrmValidateUserSearch_005.java:31)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2018664185", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2018664185'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.qa.testscripts.TC_OrangeHrmValidateUserSearch_005.ValidateUserSearch(TC_OrangeHrmValidateUserSearch_005.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>2</td>
+<td>com.qa.testscripts.TC_OrangeHrmDeletePost_019@4516af24</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_OrangeHrmDeletePost_019.editPost()'><b>editPost</b><br>Test class: com.qa.testscripts.TC_OrangeHrmDeletePost_019<br/>
+<a href="#Output-257546804" onClick='toggleBox("Output-257546804", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-257546804" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-257546804">
+post edited successfully<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at com.qa.testscripts.TC_OrangeHrmEditPost_018.editPost(TC_OrangeHrmEditPost_018.java:34)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace257546804", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace257546804'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.qa.testscripts.TC_OrangeHrmEditPost_018.editPost(TC_OrangeHrmEditPost_018.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>6</td>
+<td>com.qa.testscripts.TC_OrangeHrmDeletePost_019@4516af24</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_OrangeHrmDeletePost_019.ValidateUserSearch()'><b>ValidateUserSearch</b><br>Test class: com.qa.testscripts.TC_OrangeHrmDeletePost_019<br>Parameters: Kokila, All, Kokila, All<br/>
+<a href="#Output-1856643544" onClick='toggleBox("Output-1856643544", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1856643544" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1856643544">
+Employee details are not found<br/>
+Screenshot is captured successfully<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at com.qa.testscripts.TC_OrangeHrmValidateUserSearch_005.ValidateUserSearch(TC_OrangeHrmValidateUserSearch_005.java:31)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1856643544", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1856643544'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.qa.testscripts.TC_OrangeHrmValidateUserSearch_005.ValidateUserSearch(TC_OrangeHrmValidateUserSearch_005.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>4</td>
+<td>com.qa.testscripts.TC_OrangeHrmDeletePost_019@4516af24</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_OrangeHrmDeletePost_019.ValidateLanguages()'><b>ValidateLanguages</b><br>Test class: com.qa.testscripts.TC_OrangeHrmDeletePost_019<br>Parameters: <br/>
+<a href="#Output-233300371" onClick='toggleBox("Output-233300371", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-233300371" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-233300371">
+Language page is displayed<br/>
+AddLanguage page is displayed<br/>
+language name is already exists<br/>
+Screenshot is captured successfully<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateLanguages(TC_OrangeHrmValidateQualification_006.java:102)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace233300371", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace233300371'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateLanguages(TC_OrangeHrmValidateQualification_006.java:102)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>5</td>
+<td>com.qa.testscripts.TC_OrangeHrmDeletePost_019@4516af24</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_OrangeHrmDeletePost_019.ValidateMembership()'><b>ValidateMembership</b><br>Test class: com.qa.testscripts.TC_OrangeHrmDeletePost_019<br>Parameters: NSS<br/>
+<a href="#Output-116155384" onClick='toggleBox("Output-116155384", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-116155384" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-116155384">
+Membership page is displayed<br/>
+AddMembership page is displayed<br/>
+Membership name is already exists<br/>
+Screenshot is captured successfully<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateMembership(TC_OrangeHrmValidateQualification_006.java:124)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace116155384", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace116155384'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateMembership(TC_OrangeHrmValidateQualification_006.java:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>6</td>
+<td>com.qa.testscripts.TC_OrangeHrmDeletePost_019@4516af24</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_OrangeHrmDeletePost_019.TimeSheetView()'><b>TimeSheetView</b><br>Test class: com.qa.testscripts.TC_OrangeHrmDeletePost_019<br>Parameters: John Smith<br/>
+<a href="#Output-410958248" onClick='toggleBox("Output-410958248", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-410958248" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-410958248">
+The Time Sheet of John Smith is not displayed<br/>
+Screenshot is captured successfully<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at com.qa.testscripts.TC_OrangeHrmTimeSheet_004.TimeSheetView(TC_OrangeHrmTimeSheet_004.java:34)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace410958248", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace410958248'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.qa.testscripts.TC_OrangeHrmTimeSheet_004.TimeSheetView(TC_OrangeHrmTimeSheet_004.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>7</td>
+<td>com.qa.testscripts.TC_OrangeHrmDeletePost_019@4516af24</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_OrangeHrmDeletePost_019.TimeSheetView()'><b>TimeSheetView</b><br>Test class: com.qa.testscripts.TC_OrangeHrmDeletePost_019<br>Parameters: Sara Tencrady<br/>
+<a href="#Output-1252820474" onClick='toggleBox("Output-1252820474", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1252820474" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1252820474">
+The Time Sheet of Sara Tencrady is not displayed<br/>
+Screenshot is captured successfully<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at com.qa.testscripts.TC_OrangeHrmTimeSheet_004.TimeSheetView(TC_OrangeHrmTimeSheet_004.java:34)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1252820474", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1252820474'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.qa.testscripts.TC_OrangeHrmTimeSheet_004.TimeSheetView(TC_OrangeHrmTimeSheet_004.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>7</td>
+<td>com.qa.testscripts.TC_OrangeHrmDeletePost_019@4516af24</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_OrangeHrmDeletePost_019.ValidateSkills()'><b>ValidateSkills</b><br>Test class: com.qa.testscripts.TC_OrangeHrmDeletePost_019<br>Parameters: <br/>
+<a href="#Output-1406114969" onClick='toggleBox("Output-1406114969", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1406114969" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1406114969">
+Skill page is displayed<br/>
+AddSkill page is displayed<br/>
+Skill name is already exists<br/>
+Screenshot is captured successfully<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateSkills(TC_OrangeHrmValidateQualification_006.java:34)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1406114969", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1406114969'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateSkills(TC_OrangeHrmValidateQualification_006.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>6</td>
+<td>com.qa.testscripts.TC_OrangeHrmDeletePost_019@4516af24</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_OrangeHrmDeletePost_019.ValidateLanguages()'><b>ValidateLanguages</b><br>Test class: com.qa.testscripts.TC_OrangeHrmDeletePost_019<br>Parameters: English<br/>
+<a href="#Output-1287062222" onClick='toggleBox("Output-1287062222", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1287062222" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1287062222">
+Language page is displayed<br/>
+AddLanguage page is displayed<br/>
+language name is already exists<br/>
+Screenshot is captured successfully<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateLanguages(TC_OrangeHrmValidateQualification_006.java:102)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1287062222", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1287062222'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateLanguages(TC_OrangeHrmValidateQualification_006.java:102)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>6</td>
+<td>com.qa.testscripts.TC_OrangeHrmDeletePost_019@4516af24</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_OrangeHrmDeletePost_019.assignLeave()'><b>assignLeave</b><br>Test class: com.qa.testscripts.TC_OrangeHrmDeletePost_019<br/>
+<a href="#Output-790094605" onClick='toggleBox("Output-790094605", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-790094605" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-790094605">
+Assign Leave Button is clicked<br/>
+The leave date is selected<br/>
+Leave is not assigned<br/>
+Screenshot is captured successfully<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false]
+	at com.qa.testscripts.TC_OrangeHrmAssignLeave_002.assignLeave(TC_OrangeHrmAssignLeave_002.java:52)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace790094605", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace790094605'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.qa.testscripts.TC_OrangeHrmAssignLeave_002.assignLeave(TC_OrangeHrmAssignLeave_002.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>10</td>
+<td>com.qa.testscripts.TC_OrangeHrmDeletePost_019@4516af24</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_OrangeHrmDeletePost_019.ValidateUserSearch()'><b>ValidateUserSearch</b><br>Test class: com.qa.testscripts.TC_OrangeHrmDeletePost_019<br>Parameters: Admin, Admin, Henry raoraoraorao Mark, Enabled<br/>
+<a href="#Output-979117606" onClick='toggleBox("Output-979117606", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-979117606" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-979117606">
+Employee details are found<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at com.qa.testscripts.TC_OrangeHrmValidateUserSearch_005.ValidateUserSearch(TC_OrangeHrmValidateUserSearch_005.java:31)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace979117606", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace979117606'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.qa.testscripts.TC_OrangeHrmValidateUserSearch_005.ValidateUserSearch(TC_OrangeHrmValidateUserSearch_005.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>2</td>
+<td>com.qa.testscripts.TC_OrangeHrmDeletePost_019@4516af24</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_OrangeHrmDeletePost_019.ValidateSkills()'><b>ValidateSkills</b><br>Test class: com.qa.testscripts.TC_OrangeHrmDeletePost_019<br>Parameters: IOT<br/>
+<a href="#Output-1963980755" onClick='toggleBox("Output-1963980755", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1963980755" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1963980755">
+Skill page is displayed<br/>
+AddSkill page is displayed<br/>
+Skill name is added successfully<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateSkills(TC_OrangeHrmValidateQualification_006.java:34)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1963980755", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1963980755'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateSkills(TC_OrangeHrmValidateQualification_006.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>4</td>
+<td>com.qa.testscripts.TC_OrangeHrmDeletePost_019@4516af24</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_OrangeHrmDeletePost_019.ValidateLanguages()'><b>ValidateLanguages</b><br>Test class: com.qa.testscripts.TC_OrangeHrmDeletePost_019<br>Parameters: kanada<br/>
+<a href="#Output-866474968" onClick='toggleBox("Output-866474968", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-866474968" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-866474968">
+Language page is displayed<br/>
+AddLanguage page is displayed<br/>
+Language name is added successfully<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateLanguages(TC_OrangeHrmValidateQualification_006.java:102)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace866474968", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace866474968'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateLanguages(TC_OrangeHrmValidateQualification_006.java:102)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>4</td>
+<td>com.qa.testscripts.TC_OrangeHrmDeletePost_019@4516af24</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_OrangeHrmDeletePost_019.ValidateSkills()'><b>ValidateSkills</b><br>Test class: com.qa.testscripts.TC_OrangeHrmDeletePost_019<br>Parameters: Perl<br/>
+<a href="#Output-1825984232" onClick='toggleBox("Output-1825984232", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1825984232" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1825984232">
+Skill page is displayed<br/>
+AddSkill page is displayed<br/>
+Skill name is added successfully<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateSkills(TC_OrangeHrmValidateQualification_006.java:34)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1825984232", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1825984232'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateSkills(TC_OrangeHrmValidateQualification_006.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>4</td>
+<td>com.qa.testscripts.TC_OrangeHrmDeletePost_019@4516af24</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_OrangeHrmDeletePost_019.ValidateLanguages()'><b>ValidateLanguages</b><br>Test class: com.qa.testscripts.TC_OrangeHrmDeletePost_019<br>Parameters: Tamil<br/>
+<a href="#Output-67985650" onClick='toggleBox("Output-67985650", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-67985650" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-67985650">
+Language page is displayed<br/>
+AddLanguage page is displayed<br/>
+Language name is added successfully<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateLanguages(TC_OrangeHrmValidateQualification_006.java:102)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace67985650", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace67985650'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateLanguages(TC_OrangeHrmValidateQualification_006.java:102)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>4</td>
+<td>com.qa.testscripts.TC_OrangeHrmDeletePost_019@4516af24</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.testscripts.TC_OrangeHrmDeletePost_019.EmpList()'><b>EmpList</b><br>Test class: com.qa.testscripts.TC_OrangeHrmDeletePost_019<br>Parameters: Jordan Mathews, 54</td>
+<td></td>
+<td>6</td>
+<td>com.qa.testscripts.TC_OrangeHrmDeletePost_019@4516af24</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_OrangeHrmDeletePost_019.Language()'><b>Language</b><br>Test class: com.qa.testscripts.TC_OrangeHrmDeletePost_019<br>Parameters: Tamil, Speaking, Basic<br/>
+<a href="#Output-1244785938" onClick='toggleBox("Output-1244785938", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1244785938" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1244785938">
+Add language page is displayed <br/>
+Tamilis already Present<br/>
+Speakingis already Present<br/>
+Basicis already Present<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testscripts.TC_OrangeHrmDeletePost_019@4516af24</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_OrangeHrmDeletePost_019.validateQualificationdetails()'><b>validateQualificationdetails</b><br>Test class: com.qa.testscripts.TC_OrangeHrmDeletePost_019<br/>
+<a href="#Output-934225099" onClick='toggleBox("Output-934225099", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-934225099" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-934225099">
+Myinfo<br/>
+Qualification page should be displayed<br/>
+AddWorkExperience page should be displayed<br/>
+Company is added<br/>
+JobTitle is added<br/>
+AddWorkExperience page should be displayed<br/>
+AddEducation page should be displayed<br/>
+Education is selected from dropdown<br/>
+Institute name is added<br/>
+Specialization is added<br/>
+EducationYear is added<br/>
+Education GPA is added<br/>
+Education start date is added<br/>
+Education End date is added<br/>
+Education details added successfully<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>com.qa.testscripts.TC_OrangeHrmDeletePost_019@4516af24</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_OrangeHrmDeletePost_019.likePost()'><b>likePost</b><br>Test class: com.qa.testscripts.TC_OrangeHrmDeletePost_019<br/>
+<a href="#Output-1003521077" onClick='toggleBox("Output-1003521077", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1003521077" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1003521077">
+Like function working properly<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>com.qa.testscripts.TC_OrangeHrmDeletePost_019@4516af24</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_OrangeHrmDeletePost_019.postMsg()'><b>postMsg</b><br>Test class: com.qa.testscripts.TC_OrangeHrmDeletePost_019<br>Parameters: Hello</td>
+<td></td>
+<td>5</td>
+<td>com.qa.testscripts.TC_OrangeHrmDeletePost_019@4516af24</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_OrangeHrmDeletePost_019.commentPost()'><b>commentPost</b><br>Test class: com.qa.testscripts.TC_OrangeHrmDeletePost_019</td>
+<td></td>
+<td>4</td>
+<td>com.qa.testscripts.TC_OrangeHrmDeletePost_019@4516af24</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_OrangeHrmDeletePost_019.validateContactdetails()'><b>validateContactdetails</b><br>Test class: com.qa.testscripts.TC_OrangeHrmDeletePost_019<br/>
+<a href="#Output-384887832" onClick='toggleBox("Output-384887832", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-384887832" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-384887832">
+Myinfo Page is displayed<br/>
+Emergency contact page should be displayed<br/>
+Energency contact name is added<br/>
+Emergency contact Relationship is added<br/>
+Emergency contact Home phonenumber is added<br/>
+Emergency contact mobile number is added<br/>
+Emergency contact Work phonenumber is added<br/>
+Emergency contact details Added Successfully<br/>
+Myinfo Page is displayed<br/>
+Dependents page should be displayed<br/>
+Dependent name is added<br/>
+Relationship is added from dropdown<br/>
+Dependent Date of birth is added<br/>
+Dependent Details added successfully<br/>
+Myinfo Page is displayed<br/>
+Immigration page is displayed<br/>
+Add Immigrations Details page is displayed<br/>
+Passportnumber is added<br/>
+Immigration Details added successfully<br/>
+</div>
+</td>
+<td></td>
+<td>26</td>
+<td>com.qa.testscripts.TC_OrangeHrmDeletePost_019@4516af24</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_OrangeHrmDeletePost_019.deletePost()'><b>deletePost</b><br>Test class: com.qa.testscripts.TC_OrangeHrmDeletePost_019</td>
+<td></td>
+<td>6</td>
+<td>com.qa.testscripts.TC_OrangeHrmDeletePost_019@4516af24</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_OrangeHrmDeletePost_019.Skills()'><b>Skills</b><br>Test class: com.qa.testscripts.TC_OrangeHrmDeletePost_019<br>Parameters: SQL<br/>
+<a href="#Output-1211627902" onClick='toggleBox("Output-1211627902", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1211627902" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1211627902">
+Add Skills page should be displayed<br/>
+SQLis already Present<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testscripts.TC_OrangeHrmDeletePost_019@4516af24</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_OrangeHrmDeletePost_019.postMsg()'><b>postMsg</b><br>Test class: com.qa.testscripts.TC_OrangeHrmDeletePost_019<br>Parameters: Happy Weekend woohhhh!!!!!!</td>
+<td></td>
+<td>5</td>
+<td>com.qa.testscripts.TC_OrangeHrmDeletePost_019@4516af24</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_OrangeHrmDeletePost_019.Myinfo()'><b>Myinfo</b><br>Test class: com.qa.testscripts.TC_OrangeHrmDeletePost_019<br/>
+<a href="#Output-1785495362" onClick='toggleBox("Output-1785495362", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1785495362" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1785495362">
+Myinfo<br/>
+Photograph update Successfully<br/>
+Personal details page should be displayed<br/>
+Male Radio Button is selected <br/>
+Single is Selected from dropdown<br/>
+Indian is Selected from dropdown<br/>
+Dateof birth Added Successfully<br/>
+Personal details are added successfully<br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>com.qa.testscripts.TC_OrangeHrmDeletePost_019@4516af24</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_OrangeHrmDeletePost_019.unlikePost()'><b>unlikePost</b><br>Test class: com.qa.testscripts.TC_OrangeHrmDeletePost_019<br/>
+<a href="#Output-1412600960" onClick='toggleBox("Output-1412600960", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1412600960" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1412600960">
+OldUnlikes:0 currentunlikes:1<br/>
+unlike function works properly<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.qa.testscripts.TC_OrangeHrmDeletePost_019@4516af24</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_OrangeHrmDeletePost_019.Skills()'><b>Skills</b><br>Test class: com.qa.testscripts.TC_OrangeHrmDeletePost_019<br>Parameters: Perl<br/>
+<a href="#Output-1683617002" onClick='toggleBox("Output-1683617002", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1683617002" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1683617002">
+Add Skills page should be displayed<br/>
+Perlis already Present<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testscripts.TC_OrangeHrmDeletePost_019@4516af24</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_OrangeHrmDeletePost_019.MyTimeSheet()'><b>MyTimeSheet</b><br>Test class: com.qa.testscripts.TC_OrangeHrmDeletePost_019</td>
+<td></td>
+<td>13</td>
+<td>com.qa.testscripts.TC_OrangeHrmDeletePost_019@4516af24</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_OrangeHrmDeletePost_019.AddEmp()'><b>AddEmp</b><br>Test class: com.qa.testscripts.TC_OrangeHrmDeletePost_019</td>
+<td></td>
+<td>17</td>
+<td>com.qa.testscripts.TC_OrangeHrmDeletePost_019@4516af24</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_OrangeHrmDeletePost_019.Skills()'><b>Skills</b><br>Test class: com.qa.testscripts.TC_OrangeHrmDeletePost_019<br>Parameters: IOT<br/>
+<a href="#Output-1916677384" onClick='toggleBox("Output-1916677384", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1916677384" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1916677384">
+Add Skills page should be displayed<br/>
+IOTis already Present<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testscripts.TC_OrangeHrmDeletePost_019@4516af24</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_OrangeHrmDeletePost_019.Login()'><b>Login</b><br>Test class: com.qa.testscripts.TC_OrangeHrmDeletePost_019<br/>
+<a href="#Output-1603696865" onClick='toggleBox("Output-1603696865", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1603696865" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1603696865">
+Login is Successful and the Dashboard option is selected<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.qa.testscripts.TC_OrangeHrmDeletePost_019@4516af24</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_OrangeHrmDeletePost_019.Language()'><b>Language</b><br>Test class: com.qa.testscripts.TC_OrangeHrmDeletePost_019<br>Parameters: English, Reading, Good<br/>
+<a href="#Output-1159606185" onClick='toggleBox("Output-1159606185", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1159606185" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1159606185">
+Add language page is displayed <br/>
+Englishis already Present<br/>
+Readingis already Present<br/>
+Goodis already Present<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testscripts.TC_OrangeHrmDeletePost_019@4516af24</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_OrangeHrmDeletePost_019.postMsg()'><b>postMsg</b><br>Test class: com.qa.testscripts.TC_OrangeHrmDeletePost_019<br>Parameters: ^%$%^$%$&#$#*&!!$#%$^%</td>
+<td></td>
+<td>5</td>
+<td>com.qa.testscripts.TC_OrangeHrmDeletePost_019@4516af24</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_OrangeHrmDeletePost_019.LeaveList()'><b>LeaveList</b><br>Test class: com.qa.testscripts.TC_OrangeHrmDeletePost_019<br/>
+<a href="#Output-842331982" onClick='toggleBox("Output-842331982", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-842331982" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-842331982">
+The leave list is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>com.qa.testscripts.TC_OrangeHrmDeletePost_019@4516af24</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_OrangeHrmDeletePost_019.EmpList()'><b>EmpList</b><br>Test class: com.qa.testscripts.TC_OrangeHrmDeletePost_019<br>Parameters: Kevin Mathews, 58</td>
+<td></td>
+<td>6</td>
+<td>com.qa.testscripts.TC_OrangeHrmDeletePost_019@4516af24</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_OrangeHrmDeletePost_019.validateAnniversary()'><b>validateAnniversary</b><br>Test class: com.qa.testscripts.TC_OrangeHrmDeletePost_019<br/>
+<a href="#Output-1910687448" onClick='toggleBox("Output-1910687448", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1910687448" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1910687448">
+Yes all the month starts with capital letter<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.qa.testscripts.TC_OrangeHrmDeletePost_019@4516af24</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_OrangeHrmDeletePost_019.validateNames()'><b>validateNames</b><br>Test class: com.qa.testscripts.TC_OrangeHrmDeletePost_019<br/>
+<a href="#Output-752090153" onClick='toggleBox("Output-752090153", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-752090153" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-752090153">
+Yes first name and last name starts with capital letter<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.qa.testscripts.TC_OrangeHrmDeletePost_019@4516af24</td></tr>
+</table><p>
+</body>
+</html>
