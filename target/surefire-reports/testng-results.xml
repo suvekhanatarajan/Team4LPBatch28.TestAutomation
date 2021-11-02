@@ -1,0 +1,2464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="21" ignored="0" total="46" passed="25">
+  <reporter-output>
+    <line>
+      <![CDATA[Login is Successful and the Dashboard option is selected]]>
+    </line>
+    <line>
+      <![CDATA[Assign Leave Button is clicked]]>
+    </line>
+    <line>
+      <![CDATA[The leave date is selected]]>
+    </line>
+    <line>
+      <![CDATA[Leave is assigned]]>
+    </line>
+    <line>
+      <![CDATA[The leave list is displayed]]>
+    </line>
+    <line>
+      <![CDATA[The Time Sheet of Sara Tencrady is not displayed]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot is captured successfully]]>
+    </line>
+    <line>
+      <![CDATA[The Time Sheet of John Smith is not displayed]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot is captured successfully]]>
+    </line>
+    <line>
+      <![CDATA[Employee details are found]]>
+    </line>
+    <line>
+      <![CDATA[Employee details are found]]>
+    </line>
+    <line>
+      <![CDATA[Employee details are not found]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot is captured successfully]]>
+    </line>
+    <line>
+      <![CDATA[Skill page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[AddSkill page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Skill name is already exists]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot is captured successfully]]>
+    </line>
+    <line>
+      <![CDATA[Skill page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[AddSkill page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Skill name is added successfully]]>
+    </line>
+    <line>
+      <![CDATA[Skill page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[AddSkill page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Skill name is already exists]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot is captured successfully]]>
+    </line>
+    <line>
+      <![CDATA[Skill page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[AddSkill page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Skill name is already exists]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot is captured successfully]]>
+    </line>
+    <line>
+      <![CDATA[Skill page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[AddSkill page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Skill name is already exists]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot is captured successfully]]>
+    </line>
+    <line>
+      <![CDATA[Education page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[AddEducation page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Education level is already exists]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot is captured successfully]]>
+    </line>
+    <line>
+      <![CDATA[Education page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[AddEducation page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Education level is added successfully]]>
+    </line>
+    <line>
+      <![CDATA[Education page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[AddEducation page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Education level is added successfully]]>
+    </line>
+    <line>
+      <![CDATA[License page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[AddLicense page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[License name is added successfully]]>
+    </line>
+    <line>
+      <![CDATA[License page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[AddLicense page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[License name is added successfully]]>
+    </line>
+    <line>
+      <![CDATA[Language page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[AddLanguage page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Language name is added successfully]]>
+    </line>
+    <line>
+      <![CDATA[Language page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[AddLanguage page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Language name is added successfully]]>
+    </line>
+    <line>
+      <![CDATA[Language page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[AddLanguage page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[language name is already exists]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot is captured successfully]]>
+    </line>
+    <line>
+      <![CDATA[Language page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[AddLanguage page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[language name is already exists]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot is captured successfully]]>
+    </line>
+    <line>
+      <![CDATA[Membership page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[AddMembership page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Membership name is added successfully]]>
+    </line>
+    <line>
+      <![CDATA[Myinfo]]>
+    </line>
+    <line>
+      <![CDATA[Photograph update Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Personal details page should be displayed]]>
+    </line>
+    <line>
+      <![CDATA[Male Radio Button is selected ]]>
+    </line>
+    <line>
+      <![CDATA[Single is Selected from dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Indian is Selected from dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Dateof birth Added Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Personal details are added successfully]]>
+    </line>
+    <line>
+      <![CDATA[Myinfo Page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Emergency contact page should be displayed]]>
+    </line>
+    <line>
+      <![CDATA[Energency contact name is added]]>
+    </line>
+    <line>
+      <![CDATA[Emergency contact Relationship is added]]>
+    </line>
+    <line>
+      <![CDATA[Emergency contact Home phonenumber is added]]>
+    </line>
+    <line>
+      <![CDATA[Emergency contact mobile number is added]]>
+    </line>
+    <line>
+      <![CDATA[Emergency contact Work phonenumber is added]]>
+    </line>
+    <line>
+      <![CDATA[Emergency contact details Added Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Myinfo Page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Dependents page should be displayed]]>
+    </line>
+    <line>
+      <![CDATA[Dependent name is added]]>
+    </line>
+    <line>
+      <![CDATA[Relationship is added from dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Dependent Date of birth is added]]>
+    </line>
+    <line>
+      <![CDATA[Dependent Details added successfully]]>
+    </line>
+    <line>
+      <![CDATA[Myinfo Page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Immigration page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Add Immigrations Details page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Passportnumber is added]]>
+    </line>
+    <line>
+      <![CDATA[Immigration Details added successfully]]>
+    </line>
+    <line>
+      <![CDATA[Myinfo]]>
+    </line>
+    <line>
+      <![CDATA[Qualification page should be displayed]]>
+    </line>
+    <line>
+      <![CDATA[AddWorkExperience page should be displayed]]>
+    </line>
+    <line>
+      <![CDATA[Company is added]]>
+    </line>
+    <line>
+      <![CDATA[JobTitle is added]]>
+    </line>
+    <line>
+      <![CDATA[AddWorkExperience page should be displayed]]>
+    </line>
+    <line>
+      <![CDATA[AddEducation page should be displayed]]>
+    </line>
+    <line>
+      <![CDATA[Education is selected from dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Institute name is added]]>
+    </line>
+    <line>
+      <![CDATA[Specialization is added]]>
+    </line>
+    <line>
+      <![CDATA[EducationYear is added]]>
+    </line>
+    <line>
+      <![CDATA[Education GPA is added]]>
+    </line>
+    <line>
+      <![CDATA[Education start date is added]]>
+    </line>
+    <line>
+      <![CDATA[Education End date is added]]>
+    </line>
+    <line>
+      <![CDATA[Education details added successfully]]>
+    </line>
+    <line>
+      <![CDATA[Add Skills page should be displayed]]>
+    </line>
+    <line>
+      <![CDATA[SQLis already Present]]>
+    </line>
+    <line>
+      <![CDATA[Add Skills page should be displayed]]>
+    </line>
+    <line>
+      <![CDATA[Perlis already Present]]>
+    </line>
+    <line>
+      <![CDATA[Add Skills page should be displayed]]>
+    </line>
+    <line>
+      <![CDATA[IOTis already Present]]>
+    </line>
+    <line>
+      <![CDATA[Add language page is displayed ]]>
+    </line>
+    <line>
+      <![CDATA[Englishis already Present]]>
+    </line>
+    <line>
+      <![CDATA[Readingis already Present]]>
+    </line>
+    <line>
+      <![CDATA[Goodis already Present]]>
+    </line>
+    <line>
+      <![CDATA[Add language page is displayed ]]>
+    </line>
+    <line>
+      <![CDATA[Tamilis already Present]]>
+    </line>
+    <line>
+      <![CDATA[Speakingis already Present]]>
+    </line>
+    <line>
+      <![CDATA[Basicis already Present]]>
+    </line>
+    <line>
+      <![CDATA[Like function working properly]]>
+    </line>
+    <line>
+      <![CDATA[OldUnlikes:0 currentunlikes:1]]>
+    </line>
+    <line>
+      <![CDATA[unlike function works properly]]>
+    </line>
+    <line>
+      <![CDATA[Yes all the month starts with capital letter]]>
+    </line>
+    <line>
+      <![CDATA[Yes first name and last name starts with capital letter]]>
+    </line>
+    <line>
+      <![CDATA[post edited successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Automation_Suite" duration-ms="347286" started-at="2021-11-01T19:53:36 IST" finished-at="2021-11-01T19:59:23 IST">
+    <groups>
+    </groups>
+    <test name="FunctionalTesting-OrangeHrm" duration-ms="347286" started-at="2021-11-01T19:53:36 IST" finished-at="2021-11-01T19:59:23 IST">
+      <class name="com.qa.testscripts.TC_OrangeHrmDeletePost_019">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="setUp" is-config="true" duration-ms="10843" started-at="2021-11-01T19:53:36 IST" finished-at="2021-11-01T19:53:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Login()[pri:1, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="Login" duration-ms="7578" started-at="2021-11-01T19:53:47 IST" finished-at="2021-11-01T19:53:55 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login is Successful and the Dashboard option is selected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="assignLeave()[pri:2, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="assignLeave" duration-ms="11200" started-at="2021-11-01T19:53:55 IST" finished-at="2021-11-01T19:54:06 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Assign Leave Button is clicked]]>
+            </line>
+            <line>
+              <![CDATA[The leave date is selected]]>
+            </line>
+            <line>
+              <![CDATA[Leave is assigned]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- assignLeave -->
+        <test-method status="PASS" signature="LeaveList()[pri:3, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="LeaveList" duration-ms="10095" started-at="2021-11-01T19:54:06 IST" finished-at="2021-11-01T19:54:16 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[The leave list is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LeaveList -->
+        <test-method status="FAIL" signature="TimeSheetView(java.lang.String)[pri:4, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="TimeSheetView" duration-ms="8424" started-at="2021-11-01T19:54:19 IST" data-provider="getData" finished-at="2021-11-01T19:54:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sara Tencrady]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.qa.testscripts.TC_OrangeHrmTimeSheet_004.TimeSheetView(TC_OrangeHrmTimeSheet_004.java:34)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[The Time Sheet of Sara Tencrady is not displayed]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot is captured successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TimeSheetView -->
+        <test-method status="FAIL" signature="TimeSheetView(java.lang.String)[pri:4, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="TimeSheetView" duration-ms="7524" started-at="2021-11-01T19:54:27 IST" data-provider="getData" finished-at="2021-11-01T19:54:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John Smith]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.qa.testscripts.TC_OrangeHrmTimeSheet_004.TimeSheetView(TC_OrangeHrmTimeSheet_004.java:34)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[The Time Sheet of John Smith is not displayed]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot is captured successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TimeSheetView -->
+        <test-method status="PASS" signature="MyTimeSheet()[pri:5, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="MyTimeSheet" duration-ms="13529" started-at="2021-11-01T19:54:35 IST" finished-at="2021-11-01T19:54:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyTimeSheet -->
+        <test-method status="FAIL" signature="ValidateUserSearch(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="ValidateUserSearch" duration-ms="3901" started-at="2021-11-01T19:54:49 IST" data-provider="getUserData" finished-at="2021-11-01T19:54:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Henry raoraoraorao Mark]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Enabled]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.qa.testscripts.TC_OrangeHrmValidateUserSearch_005.ValidateUserSearch(TC_OrangeHrmValidateUserSearch_005.java:31)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Employee details are found]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateUserSearch -->
+        <test-method status="FAIL" signature="ValidateUserSearch(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="ValidateUserSearch" duration-ms="3436" started-at="2021-11-01T19:54:53 IST" data-provider="getUserData" finished-at="2021-11-01T19:54:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[manali28]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ESS]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Manali Kulkarni]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Enabled]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.qa.testscripts.TC_OrangeHrmValidateUserSearch_005.ValidateUserSearch(TC_OrangeHrmValidateUserSearch_005.java:31)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Employee details are found]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateUserSearch -->
+        <test-method status="FAIL" signature="ValidateUserSearch(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="ValidateUserSearch" duration-ms="4870" started-at="2021-11-01T19:54:56 IST" data-provider="getUserData" finished-at="2021-11-01T19:55:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kokila]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[All]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kokila]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[All]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.qa.testscripts.TC_OrangeHrmValidateUserSearch_005.ValidateUserSearch(TC_OrangeHrmValidateUserSearch_005.java:31)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Employee details are not found]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot is captured successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateUserSearch -->
+        <test-method status="FAIL" signature="ValidateSkills(java.lang.String)[pri:7, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="ValidateSkills" duration-ms="7056" started-at="2021-11-01T19:55:02 IST" data-provider="getData1" finished-at="2021-11-01T19:55:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Perl]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateSkills(TC_OrangeHrmValidateQualification_006.java:34)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Skill page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[AddSkill page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Skill name is already exists]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot is captured successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateSkills -->
+        <test-method status="FAIL" signature="ValidateSkills(java.lang.String)[pri:7, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="ValidateSkills" duration-ms="5181" started-at="2021-11-01T19:55:09 IST" data-provider="getData1" finished-at="2021-11-01T19:55:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IOT]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateSkills(TC_OrangeHrmValidateQualification_006.java:34)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Skill page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[AddSkill page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Skill name is added successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateSkills -->
+        <test-method status="FAIL" signature="ValidateSkills(java.lang.String)[pri:7, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="ValidateSkills" duration-ms="6530" started-at="2021-11-01T19:55:14 IST" data-provider="getData1" finished-at="2021-11-01T19:55:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SQL]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateSkills(TC_OrangeHrmValidateQualification_006.java:34)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Skill page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[AddSkill page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Skill name is already exists]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot is captured successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateSkills -->
+        <test-method status="FAIL" signature="ValidateSkills(java.lang.String)[pri:7, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="ValidateSkills" duration-ms="6568" started-at="2021-11-01T19:55:20 IST" data-provider="getData1" finished-at="2021-11-01T19:55:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[java]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateSkills(TC_OrangeHrmValidateQualification_006.java:34)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Skill page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[AddSkill page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Skill name is already exists]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot is captured successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateSkills -->
+        <test-method status="FAIL" signature="ValidateSkills(java.lang.String)[pri:7, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="ValidateSkills" duration-ms="7755" started-at="2021-11-01T19:55:27 IST" data-provider="getData1" finished-at="2021-11-01T19:55:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateSkills(TC_OrangeHrmValidateQualification_006.java:34)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Skill page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[AddSkill page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Skill name is already exists]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot is captured successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateSkills -->
+        <test-method status="FAIL" signature="ValidateEducation(java.lang.String)[pri:8, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="ValidateEducation" duration-ms="7495" started-at="2021-11-01T19:55:35 IST" data-provider="getData2" finished-at="2021-11-01T19:55:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bachelor's Degree]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateEducation(TC_OrangeHrmValidateQualification_006.java:56)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Education page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[AddEducation page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Education level is already exists]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot is captured successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateEducation -->
+        <test-method status="FAIL" signature="ValidateEducation(java.lang.String)[pri:8, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="ValidateEducation" duration-ms="5088" started-at="2021-11-01T19:55:42 IST" data-provider="getData2" finished-at="2021-11-01T19:55:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BE]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateEducation(TC_OrangeHrmValidateQualification_006.java:56)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Education page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[AddEducation page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Education level is added successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateEducation -->
+        <test-method status="FAIL" signature="ValidateEducation(java.lang.String)[pri:8, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="ValidateEducation" duration-ms="4871" started-at="2021-11-01T19:55:47 IST" data-provider="getData2" finished-at="2021-11-01T19:55:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ME]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateEducation(TC_OrangeHrmValidateQualification_006.java:56)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Education page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[AddEducation page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Education level is added successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateEducation -->
+        <test-method status="FAIL" signature="ValidateLicenses(java.lang.String)[pri:9, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="ValidateLicenses" duration-ms="5341" started-at="2021-11-01T19:55:52 IST" data-provider="getData3" finished-at="2021-11-01T19:55:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Talend Big Data]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateLicenses(TC_OrangeHrmValidateQualification_006.java:79)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[License page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[AddLicense page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[License name is added successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateLicenses -->
+        <test-method status="FAIL" signature="ValidateLicenses(java.lang.String)[pri:9, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="ValidateLicenses" duration-ms="5115" started-at="2021-11-01T19:55:58 IST" data-provider="getData3" finished-at="2021-11-01T19:56:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NPTEL]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateLicenses(TC_OrangeHrmValidateQualification_006.java:79)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[License page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[AddLicense page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[License name is added successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateLicenses -->
+        <test-method status="FAIL" signature="ValidateLanguages(java.lang.String)[pri:10, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="ValidateLanguages" duration-ms="5187" started-at="2021-11-01T19:56:03 IST" data-provider="getData4" finished-at="2021-11-01T19:56:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tamil]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateLanguages(TC_OrangeHrmValidateQualification_006.java:102)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Language page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[AddLanguage page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Language name is added successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateLanguages -->
+        <test-method status="FAIL" signature="ValidateLanguages(java.lang.String)[pri:10, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="ValidateLanguages" duration-ms="5052" started-at="2021-11-01T19:56:08 IST" data-provider="getData4" finished-at="2021-11-01T19:56:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kanada]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateLanguages(TC_OrangeHrmValidateQualification_006.java:102)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Language page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[AddLanguage page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Language name is added successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateLanguages -->
+        <test-method status="FAIL" signature="ValidateLanguages(java.lang.String)[pri:10, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="ValidateLanguages" duration-ms="8047" started-at="2021-11-01T19:56:14 IST" data-provider="getData4" finished-at="2021-11-01T19:56:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[English]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateLanguages(TC_OrangeHrmValidateQualification_006.java:102)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Language page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[AddLanguage page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[language name is already exists]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot is captured successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateLanguages -->
+        <test-method status="FAIL" signature="ValidateLanguages(java.lang.String)[pri:10, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="ValidateLanguages" duration-ms="6979" started-at="2021-11-01T19:56:22 IST" data-provider="getData4" finished-at="2021-11-01T19:56:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateLanguages(TC_OrangeHrmValidateQualification_006.java:102)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Language page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[AddLanguage page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[language name is already exists]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot is captured successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateLanguages -->
+        <test-method status="FAIL" signature="ValidateMembership(java.lang.String)[pri:11, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="ValidateMembership" duration-ms="1551" started-at="2021-11-01T19:56:29 IST" data-provider="getData5" finished-at="2021-11-01T19:56:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NSS]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=95.0.4638.54)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-H6AKN3DE', ip: '192.168.0.119', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\saran\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56336}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4d8024483d5421f97a3037bb1bea1703]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=95.0.4638.54)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-H6AKN3DE', ip: '192.168.0.119', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\saran\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56336}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4d8024483d5421f97a3037bb1bea1703
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy9.click(Unknown Source)
+at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateMembership(TC_OrangeHrmValidateQualification_006.java:108)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateMembership -->
+        <test-method status="FAIL" signature="ValidateMembership(java.lang.String)[pri:11, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="ValidateMembership" duration-ms="5935" started-at="2021-11-01T19:56:30 IST" data-provider="getData5" finished-at="2021-11-01T19:56:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[JRC]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.qa.testscripts.TC_OrangeHrmValidateQualification_006.ValidateMembership(TC_OrangeHrmValidateQualification_006.java:124)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Membership page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[AddMembership page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Membership name is added successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateMembership -->
+        <test-method status="PASS" signature="Myinfo()[pri:12, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="Myinfo" duration-ms="21562" started-at="2021-11-01T19:56:36 IST" finished-at="2021-11-01T19:56:58 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Myinfo]]>
+            </line>
+            <line>
+              <![CDATA[Photograph update Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Personal details page should be displayed]]>
+            </line>
+            <line>
+              <![CDATA[Male Radio Button is selected ]]>
+            </line>
+            <line>
+              <![CDATA[Single is Selected from dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Indian is Selected from dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Dateof birth Added Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Personal details are added successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Myinfo -->
+        <test-method status="PASS" signature="validateContactdetails()[pri:14, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="validateContactdetails" duration-ms="26764" started-at="2021-11-01T19:56:58 IST" finished-at="2021-11-01T19:57:25 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Myinfo Page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Emergency contact page should be displayed]]>
+            </line>
+            <line>
+              <![CDATA[Energency contact name is added]]>
+            </line>
+            <line>
+              <![CDATA[Emergency contact Relationship is added]]>
+            </line>
+            <line>
+              <![CDATA[Emergency contact Home phonenumber is added]]>
+            </line>
+            <line>
+              <![CDATA[Emergency contact mobile number is added]]>
+            </line>
+            <line>
+              <![CDATA[Emergency contact Work phonenumber is added]]>
+            </line>
+            <line>
+              <![CDATA[Emergency contact details Added Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Myinfo Page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Dependents page should be displayed]]>
+            </line>
+            <line>
+              <![CDATA[Dependent name is added]]>
+            </line>
+            <line>
+              <![CDATA[Relationship is added from dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Dependent Date of birth is added]]>
+            </line>
+            <line>
+              <![CDATA[Dependent Details added successfully]]>
+            </line>
+            <line>
+              <![CDATA[Myinfo Page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Immigration page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Add Immigrations Details page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Passportnumber is added]]>
+            </line>
+            <line>
+              <![CDATA[Immigration Details added successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateContactdetails -->
+        <test-method status="PASS" signature="validateQualificationdetails()[pri:15, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="validateQualificationdetails" duration-ms="11329" started-at="2021-11-01T19:57:25 IST" finished-at="2021-11-01T19:57:36 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Myinfo]]>
+            </line>
+            <line>
+              <![CDATA[Qualification page should be displayed]]>
+            </line>
+            <line>
+              <![CDATA[AddWorkExperience page should be displayed]]>
+            </line>
+            <line>
+              <![CDATA[Company is added]]>
+            </line>
+            <line>
+              <![CDATA[JobTitle is added]]>
+            </line>
+            <line>
+              <![CDATA[AddWorkExperience page should be displayed]]>
+            </line>
+            <line>
+              <![CDATA[AddEducation page should be displayed]]>
+            </line>
+            <line>
+              <![CDATA[Education is selected from dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Institute name is added]]>
+            </line>
+            <line>
+              <![CDATA[Specialization is added]]>
+            </line>
+            <line>
+              <![CDATA[EducationYear is added]]>
+            </line>
+            <line>
+              <![CDATA[Education GPA is added]]>
+            </line>
+            <line>
+              <![CDATA[Education start date is added]]>
+            </line>
+            <line>
+              <![CDATA[Education End date is added]]>
+            </line>
+            <line>
+              <![CDATA[Education details added successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateQualificationdetails -->
+        <test-method status="PASS" signature="Skills(java.lang.String)[pri:16, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="Skills" duration-ms="53" started-at="2021-11-01T19:57:36 IST" data-provider="getSkillData" finished-at="2021-11-01T19:57:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SQL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Add Skills page should be displayed]]>
+            </line>
+            <line>
+              <![CDATA[SQLis already Present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Skills -->
+        <test-method status="PASS" signature="Skills(java.lang.String)[pri:16, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="Skills" duration-ms="33" started-at="2021-11-01T19:57:36 IST" data-provider="getSkillData" finished-at="2021-11-01T19:57:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Perl]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Add Skills page should be displayed]]>
+            </line>
+            <line>
+              <![CDATA[Perlis already Present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Skills -->
+        <test-method status="PASS" signature="Skills(java.lang.String)[pri:16, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="Skills" duration-ms="30" started-at="2021-11-01T19:57:36 IST" data-provider="getSkillData" finished-at="2021-11-01T19:57:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IOT]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Add Skills page should be displayed]]>
+            </line>
+            <line>
+              <![CDATA[IOTis already Present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Skills -->
+        <test-method status="PASS" signature="Language(java.lang.String, java.lang.String, java.lang.String)[pri:17, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="Language" duration-ms="121" started-at="2021-11-01T19:57:36 IST" data-provider="getLanguageData" finished-at="2021-11-01T19:57:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[English]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Reading]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Good]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Add language page is displayed ]]>
+            </line>
+            <line>
+              <![CDATA[Englishis already Present]]>
+            </line>
+            <line>
+              <![CDATA[Readingis already Present]]>
+            </line>
+            <line>
+              <![CDATA[Goodis already Present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Language -->
+        <test-method status="PASS" signature="Language(java.lang.String, java.lang.String, java.lang.String)[pri:17, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="Language" duration-ms="100" started-at="2021-11-01T19:57:37 IST" data-provider="getLanguageData" finished-at="2021-11-01T19:57:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tamil]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Speaking]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Basic]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Add language page is displayed ]]>
+            </line>
+            <line>
+              <![CDATA[Tamilis already Present]]>
+            </line>
+            <line>
+              <![CDATA[Speakingis already Present]]>
+            </line>
+            <line>
+              <![CDATA[Basicis already Present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Language -->
+        <test-method status="PASS" signature="AddEmp()[pri:18, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="AddEmp" duration-ms="26448" started-at="2021-11-01T19:57:37 IST" finished-at="2021-11-01T19:58:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmp -->
+        <test-method status="PASS" signature="EmpList(java.lang.String, java.lang.String)[pri:19, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="EmpList" duration-ms="7581" started-at="2021-11-01T19:58:04 IST" data-provider="getDataPIM" finished-at="2021-11-01T19:58:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kevin Mathews]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[58]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmpList -->
+        <test-method status="PASS" signature="EmpList(java.lang.String, java.lang.String)[pri:19, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="EmpList" duration-ms="6853" started-at="2021-11-01T19:58:11 IST" data-provider="getDataPIM" finished-at="2021-11-01T19:58:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jordan Mathews]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[54]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmpList -->
+        <test-method status="PASS" signature="likePost()[pri:20, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="likePost" duration-ms="16798" started-at="2021-11-01T19:58:18 IST" finished-at="2021-11-01T19:58:35 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Like function working properly]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- likePost -->
+        <test-method status="PASS" signature="postMsg(java.lang.String)[pri:20, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="postMsg" duration-ms="5418" started-at="2021-11-01T19:58:35 IST" data-provider="getDataStatus" finished-at="2021-11-01T19:58:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Happy Weekend woohhhh!!!!!!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postMsg -->
+        <test-method status="PASS" signature="postMsg(java.lang.String)[pri:20, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="postMsg" duration-ms="5429" started-at="2021-11-01T19:58:40 IST" data-provider="getDataStatus" finished-at="2021-11-01T19:58:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[^%$%^$%$&#$#*&!!$#%$^%]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postMsg -->
+        <test-method status="PASS" signature="postMsg(java.lang.String)[pri:20, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="postMsg" duration-ms="5322" started-at="2021-11-01T19:58:46 IST" data-provider="getDataStatus" finished-at="2021-11-01T19:58:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hello]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postMsg -->
+        <test-method status="PASS" signature="unlikePost()[pri:22, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="unlikePost" duration-ms="4776" started-at="2021-11-01T19:58:51 IST" finished-at="2021-11-01T19:58:56 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[OldUnlikes:0 currentunlikes:1]]>
+            </line>
+            <line>
+              <![CDATA[unlike function works properly]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- unlikePost -->
+        <test-method status="PASS" signature="commentPost()[pri:23, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="commentPost" duration-ms="4447" started-at="2021-11-01T19:58:56 IST" finished-at="2021-11-01T19:59:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commentPost -->
+        <test-method status="PASS" signature="validateAnniversary()[pri:24, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="validateAnniversary" duration-ms="4383" started-at="2021-11-01T19:59:00 IST" finished-at="2021-11-01T19:59:05 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Yes all the month starts with capital letter]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateAnniversary -->
+        <test-method status="PASS" signature="validateNames()[pri:25, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="validateNames" duration-ms="1187" started-at="2021-11-01T19:59:05 IST" finished-at="2021-11-01T19:59:06 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Yes first name and last name starts with capital letter]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateNames -->
+        <test-method status="PASS" signature="editPost()[pri:26, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="editPost" duration-ms="6739" started-at="2021-11-01T19:59:06 IST" finished-at="2021-11-01T19:59:13 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[post edited successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- editPost -->
+        <test-method status="PASS" signature="deletePost()[pri:27, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="deletePost" duration-ms="10485" started-at="2021-11-01T19:59:13 IST" finished-at="2021-11-01T19:59:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePost -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testscripts.TC_OrangeHrmDeletePost_019@2d6eabae]" name="tearDown" is-config="true" duration-ms="97" started-at="2021-11-01T19:59:23 IST" finished-at="2021-11-01T19:59:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testscripts.TC_OrangeHrmDeletePost_019 -->
+    </test> <!-- FunctionalTesting-OrangeHrm -->
+  </suite> <!-- Automation_Suite -->
+</testng-results>
